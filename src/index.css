@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;600&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  html, body, #root {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  html { scroll-behavior: smooth; }
+  [id] { scroll-margin-top: 100px; }
+}
+
+@theme {
+  --font-anton: "Anton", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --animate-color-flow: colorFlow 8s ease infinite;
+  --animate-aurora: auroraShift 12s ease-in-out infinite;
+}
+
+/* ── Light mode CSS variables ── */
+:root {
+  --bg:           #f5f3ef;
+  --bg-2:         #edeae4;
+  --bg-3:         #e8e4dc;
+  --surface:      #ffffff;
+  --surface-2:    #f9f7f4;
+  --border:       rgba(0,0,0,0.07);
+  --border-strong:rgba(0,0,0,0.13);
+  --text:         #0a0a0a;
+  --text-2:       #3a3a3a;
+  --text-3:       #7a7a7a;
+  --text-4:       #b0b0b0;
+  --accent-1:     #0057ff;
+  --accent-2:     #8b00ff;
+  --accent-3:     #ff0099;
+  --accent-4:     #ff6b00;
+  --glow-1:       rgba(0,87,255,0.15);
+  --glow-2:       rgba(139,0,255,0.12);
+  --glow-3:       rgba(255,0,153,0.10);
+}
+
+/* ── Dark mode CSS variables ── */
+.dark {
+  --bg:           #000000;
+  --bg-2:         #080810;
+  --bg-3:         #0c0c18;
+  --surface:      #0c0c14;
+  --surface-2:    #10101e;
+  --border:       rgba(255,255,255,0.07);
+  --border-strong:rgba(255,255,255,0.15);
+  --text:         #ffffff;
+  --text-2:       rgba(255,255,255,0.8);
+  --text-3:       rgba(255,255,255,0.45);
+  --text-4:       rgba(255,255,255,0.2);
+  --accent-1:     #00f2ff;
+  --accent-2:     #7000ff;
+  --accent-3:     #ff00ea;
+  --accent-4:     #ffc400;
+  --glow-1:       rgba(0,242,255,0.15);
+  --glow-2:       rgba(112,0,255,0.12);
+  --glow-3:       rgba(255,0,234,0.10);
+}
+
+/* ── Keyframes ── */
+@keyframes colorFlow {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes auroraShift {
+  0%   { background-position: 0% 50%; }
+  25%  { background-position: 50% 0%; }
+  50%  { background-position: 100% 50%; }
+  75%  { background-position: 50% 100%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes shimmerSweep {
+  0%   { transform: translateX(-150%) skewX(-20deg); }
+  100% { transform: translateX(350%) skewX(-20deg); }
+}
+
+@keyframes borderPulse {
+  0%, 100% { opacity: 0.35; }
+  50%       { opacity: 1; }
+}
+
+@keyframes cardShimmer {
+  0%   { transform: translateX(-150%) skewX(-15deg); }
+  100% { transform: translateX(350%) skewX(-15deg); }
+}
+
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.4; }
+  50%       { opacity: 1; }
+}
+
+@keyframes scrollLeft {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scrollRight {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-8px); }
+}
+
+.gallery-track {
+  overflow: hidden !important;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.gallery-track::-webkit-scrollbar { display: none; }
