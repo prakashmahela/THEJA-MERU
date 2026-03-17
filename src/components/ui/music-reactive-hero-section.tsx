@@ -339,7 +339,7 @@ export const MusicReactiveHero = () => {
         </p>
         <h1 className="mb-4 md:mb-6 text-8xl md:text-9xl font-anton tracking-tighter leading-none animate-[fadeInUp_1.2s_ease-out]">
           <span className="block px-4 text-transparent bg-clip-text bg-gradient-to-r from-white via-cyan-300 via-purple-400 via-orange-300 to-white bg-[length:200%_auto] animate-color-flow">THEJA</span>
-          <span className="block px-4 text-transparent bg-clip-text bg-gradient-to-r from-white via-orange-300 via-purple-400 via-cyan-300 to-white bg-[length:200%_auto] animate-color-flow">MERO</span>
+          <span className="block px-4 text-transparent bg-clip-text bg-gradient-to-r from-white via-orange-300 via-purple-400 via-cyan-300 to-white bg-[length:200%_auto] animate-color-flow">MERU</span>
         </h1>
         <p className="max-w-2xl mb-6 md:mb-8 text-sm md:text-xl font-poppins opacity-80 animate-[fadeInUp_1.4s_ease-out]">
           Pioneering the "Music as an Industry" movement in Nagaland.{' '}

@@ -242,7 +242,7 @@ export default function App() {
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Youth Leadership</h3>
             <h4 className="text-2xl font-anton text-white mb-4 uppercase">Mentorship Programs</h4>
-            <p>Theja Mero personally leads mentorship sessions for young Naga leaders. These programs focus on visionary thinking, resilience, and ethical leadership. By investing in the people behind the projects, we are building a sustainable leadership pipeline for Nagaland's future.</p>
+            <p>Theja Meru personally leads mentorship sessions for young Naga leaders. These programs focus on visionary thinking, resilience, and ethical leadership. By investing in the people behind the projects, we are building a sustainable leadership pipeline for Nagaland's future.</p>
           </div>
         </>
       )
@@ -254,7 +254,7 @@ export default function App() {
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Artistic Journey</h3>
             <h4 className="text-2xl font-anton text-white mb-4 uppercase">Musical Roots</h4>
-            <p>Theja Mero's journey began with a deep-seated passion for the diverse sounds of Nagaland. His early career as a musician saw him exploring various genres, blending traditional Naga folk elements with contemporary styles. This unique fusion became his signature, earning him respect within the local and national music circles.</p>
+            <p>Theja Meru's journey began with a deep-seated passion for the diverse sounds of Nagaland. His early career as a musician saw him exploring various genres, blending traditional Naga folk elements with contemporary styles. This unique fusion became his signature, earning him respect within the local and national music circles.</p>
           </div>
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Creative Philosophy</h3>
@@ -276,7 +276,7 @@ export default function App() {
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Pillar 01</h3>
             <h4 className="text-2xl font-anton text-white mb-4 uppercase">The Incubation Model</h4>
-            <p>Theja Mero has pioneered a creative incubation model tailored specifically to the realities of Northeast India. Unlike conventional startup accelerators, this framework addresses the unique challenges faced by artists-turned-entrepreneurs — from navigating limited local markets to accessing national and international distribution networks. The model provides structured mentorship, legal guidance, and financial literacy training.</p>
+            <p>Theja Meru has pioneered a creative incubation model tailored specifically to the realities of Northeast India. Unlike conventional startup accelerators, this framework addresses the unique challenges faced by artists-turned-entrepreneurs — from navigating limited local markets to accessing national and international distribution networks. The model provides structured mentorship, legal guidance, and financial literacy training.</p>
           </div>
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Pillar 02</h3>
@@ -298,7 +298,7 @@ export default function App() {
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Pillar 01</h3>
             <h4 className="text-2xl font-anton text-white mb-4 uppercase">Drafting the Framework</h4>
-            <p>Theja Mero has been instrumental in drafting comprehensive policy recommendations for the creative industries in Nagaland. These frameworks cover intellectual property protection, arts-based business licensing, and tax incentive structures designed to attract long-term private investment into the cultural sector. The goal is to create a regulatory environment where creativity is rewarded, not burdened.</p>
+            <p>Theja Meru has been instrumental in drafting comprehensive policy recommendations for the creative industries in Nagaland. These frameworks cover intellectual property protection, arts-based business licensing, and tax incentive structures designed to attract long-term private investment into the cultural sector. The goal is to create a regulatory environment where creativity is rewarded, not burdened.</p>
           </div>
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Pillar 02</h3>
@@ -364,7 +364,7 @@ export default function App() {
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Business Acumen</h3>
             <h4 className="text-2xl font-anton text-white mb-4 uppercase">Creative Ventures</h4>
-            <p>Theja Mero's entrepreneurial spirit is driven by the desire to build sustainable ecosystems for the arts. He has founded and co-founded several ventures that provide platforms for local talent, ranging from event management firms to creative consulting agencies. His focus is always on creating value for the community.</p>
+            <p>Theja Meru's entrepreneurial spirit is driven by the desire to build sustainable ecosystems for the arts. He has founded and co-founded several ventures that provide platforms for local talent, ranging from event management firms to creative consulting agencies. His focus is always on creating value for the community.</p>
           </div>
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Mentorship</h3>
@@ -541,7 +541,7 @@ export default function App() {
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Origin</h3>
             <h4 className="text-2xl font-anton text-white mb-4 uppercase">Kohima's Streets</h4>
-            <p>It began not on a grand stage but at small community gatherings in Kohima — weddings, church events, and local festivals where Theja Mero first discovered the transformative power of performance. His early style was raw and rooted in traditional Naga folk, an instinctive expression of the sounds he grew up hearing in his community.</p>
+            <p>It began not on a grand stage but at small community gatherings in Kohima — weddings, church events, and local festivals where Theja Meru first discovered the transformative power of performance. His early style was raw and rooted in traditional Naga folk, an instinctive expression of the sounds he grew up hearing in his community.</p>
           </div>
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">The Formative Years</h3>
@@ -643,7 +643,7 @@ export default function App() {
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Feature Coverage</h3>
             <h4 className="text-2xl font-anton text-white mb-4 uppercase">Rewriting the Narrative</h4>
-            <p>The Hindu's 2023 feature on Theja Mero was one of the most widely read cultural pieces the publication had run on a Northeast subject. The journalist spent a week in Nagaland, attending rehearsals, visiting district centers, and interviewing artists whose lives had been transformed by TaFMA's programs. The resulting piece was a nuanced portrait of systemic change driven by personal conviction.</p>
+            <p>The Hindu's 2023 feature on Theja Meru was one of the most widely read cultural pieces the publication had run on a Northeast subject. The journalist spent a week in Nagaland, attending rehearsals, visiting district centers, and interviewing artists whose lives had been transformed by TaFMA's programs. The resulting piece was a nuanced portrait of systemic change driven by personal conviction.</p>
           </div>
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Critical Reception</h3>
@@ -743,10 +743,10 @@ export default function App() {
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Contact 01</h3>
             <h4 className="text-2xl font-anton text-white mb-4 uppercase">Direct Email</h4>
-            <p className="mb-4">The most direct way to reach Theja Mero and the TaFMA team is via email. Whether you are an artist seeking mentorship, an institution exploring partnership, or a journalist requesting an interview — all enquiries are read personally and responded to within two weeks.</p>
+            <p className="mb-4">The most direct way to reach Theja Meru and the TaFMA team is via email. Whether you are an artist seeking mentorship, an institution exploring partnership, or a journalist requesting an interview — all enquiries are read personally and responded to within two weeks.</p>
             <div className="mt-6 p-4 rounded-xl border border-white/10 inline-flex items-center gap-3" style={{ background: "linear-gradient(135deg, rgba(0,242,255,0.05), rgba(112,0,255,0.05))" }}>
               <ExternalLink className="w-4 h-4 text-cyan-400 flex-shrink-0" />
-              <a href="mailto:contact@thejamero.com" className="font-bold text-white hover:text-cyan-300 transition-colors duration-300 text-lg tracking-wide">contact@thejamero.com</a>
+              <a href="mailto:contact@thejameru.com" className="font-bold text-white hover:text-cyan-300 transition-colors duration-300 text-lg tracking-wide">contact@thejameru.com</a>
             </div>
           </div>
           <div className="border-l-2 border-white/10 pl-8">
@@ -755,9 +755,9 @@ export default function App() {
             <p className="mb-6">Follow Theja's work in real time — from festival announcements and artist features to policy updates and personal reflections on Nagaland's creative journey. His social channels are the most current window into the movement he is building.</p>
             <div className="flex flex-wrap gap-4">
               {[
-                { platform: "Instagram", handle: "@thejamero", desc: "Behind-the-scenes & festival updates" },
-                { platform: "Twitter / X", handle: "@thejamero", desc: "Policy commentary & cultural discourse" },
-                { platform: "LinkedIn", handle: "Theja Mero", desc: "Professional updates & partnerships" },
+                { platform: "Instagram", handle: "@thejameru", desc: "Behind-the-scenes & festival updates" },
+                { platform: "Twitter / X", handle: "@thejameru", desc: "Policy commentary & cultural discourse" },
+                { platform: "LinkedIn", handle: "Theja Meru", desc: "Professional updates & partnerships" },
               ].map((s, i) => (
                 <div key={i} className="p-4 rounded-xl border border-white/10 hover:border-white/25 transition-all duration-300 group" style={{ background: "linear-gradient(135deg, rgba(0,242,255,0.03), rgba(112,0,255,0.03))" }}>
                   <p className="font-bold text-white text-sm uppercase tracking-wider mb-1">{s.platform}</p>
@@ -787,7 +787,7 @@ export default function App() {
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Strategic Leadership</h3>
             <h4 className="text-2xl font-anton text-white mb-4 uppercase">TaFMA Leadership</h4>
-            <p>As the Chairman of TaFMA, Theja Mero has redefined the role of government in the arts. His visionary leadership has led to the implementation of groundbreaking policies that have put Nagaland on the global music map. He views TaFMA not just as a task force, but as a movement for cultural and economic transformation.</p>
+            <p>As the Chairman of TaFMA, Theja Meru has redefined the role of government in the arts. His visionary leadership has led to the implementation of groundbreaking policies that have put Nagaland on the global music map. He views TaFMA not just as a task force, but as a movement for cultural and economic transformation.</p>
           </div>
           <div className="border-l-2 border-white/10 pl-8">
             <h3 className="text-xs uppercase tracking-[0.5em] text-white/30 mb-4">Global Outlook</h3>
@@ -842,7 +842,7 @@ export default function App() {
               <span style={{WebkitTextFillColor: dark ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"}}>Architect</span>
             </h2>
             <p style={{ color: dark ? "rgba(255,255,255,0.65)" : "rgba(0,0,0,0.6)" }} className="text-sm md:text-xl mb-4 md:mb-10 leading-relaxed">
-              Theja Mero is a name synonymous with the creative revolution in Nagaland. 
+              Theja Meru is a name synonymous with the creative revolution in Nagaland. 
               As the Chairman of the Task Force for Music & Arts (TaFMA), he has transformed 
               the state's musical landscape from a cultural hobby into a thriving industry.
             </p>
@@ -915,7 +915,7 @@ export default function App() {
           >
             <motion.img 
               src="https://i.ibb.co/fdN7wNqZ/theja-meru-479x542.jpg" 
-              alt="Theja Mero Vision" 
+              alt="Theja Meru Vision" 
               className="w-full h-full object-contain transition-all duration-700"
               referrerPolicy="no-referrer"
               style={{ translateZ: 20 }}
@@ -1133,7 +1133,7 @@ export default function App() {
               style={{
                 color: dark ? "rgba(0,242,255,0.8)" : "rgba(0,87,255,0.8)",
               }}
-            >- Theja Mero</p>
+            >- Theja Meru</p>
           </motion.div>
         </Section>
 
@@ -1340,9 +1340,9 @@ export default function App() {
             </motion.div>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { q:"Theja Mero is single-handedly rewriting the narrative of what is possible in Northeast India's creative sector.", s:"The Hindu",           y:"2023", k:"press_hindu",  bg:"linear-gradient(145deg,#0f1f3d,#1a3460)", acc:"#6495ff", glow:"rgba(30,80,200,0.4)",  bdr:"rgba(100,149,255,0.4)", shape:"28px 6px 28px 6px" },
+                { q:"Theja Meru is single-handedly rewriting the narrative of what is possible in Northeast India's creative sector.", s:"The Hindu",           y:"2023", k:"press_hindu",  bg:"linear-gradient(145deg,#0f1f3d,#1a3460)", acc:"#6495ff", glow:"rgba(30,80,200,0.4)",  bdr:"rgba(100,149,255,0.4)", shape:"28px 6px 28px 6px" },
                 { q:"A rare blend of artistic vision and institutional leadership — he is building the infrastructure that the entire region needs.", s:"Forbes India",     y:"2022", k:"press_forbes", bg:"linear-gradient(145deg,#1e0a3c,#2e1458)", acc:"#a064ff", glow:"rgba(120,60,220,0.4)", bdr:"rgba(160,100,255,0.4)", shape:"6px 28px 6px 28px" },
-                { q:"Nagaland's music revolution has a face, and it belongs to Theja Mero.",                                                                  s:"Rolling Stone India", y:"2024", k:"press_hindu",  bg:"linear-gradient(145deg,#2d0a1a,#4a1428)", acc:"#e05080", glow:"rgba(180,40,80,0.4)",  bdr:"rgba(220,80,120,0.4)", shape:"28px 28px 6px 6px" },
+                { q:"Nagaland's music revolution has a face, and it belongs to Theja Meru.",                                                                  s:"Rolling Stone India", y:"2024", k:"press_hindu",  bg:"linear-gradient(145deg,#2d0a1a,#4a1428)", acc:"#e05080", glow:"rgba(180,40,80,0.4)",  bdr:"rgba(220,80,120,0.4)", shape:"28px 28px 6px 6px" },
                 { q:"His work with TaFMA is a masterclass in cultural policy — data-driven, community-centred, globally oriented.",                            s:"NITI Aayog",        y:"2023", k:"press_forbes", bg:"linear-gradient(145deg,#2a1400,#3d1e00)", acc:"#d28232", glow:"rgba(180,100,20,0.4)", bdr:"rgba(210,130,50,0.4)",  shape:"6px 6px 28px 28px" },
                 { q:"When Theja speaks about music as industry, you feel the weight of a movement behind him.",                                                s:"Economic Times",    y:"2024", k:"press_hindu",  bg:"linear-gradient(145deg,#0a2218,#143322)", acc:"#3cb46e", glow:"rgba(20,140,80,0.4)",  bdr:"rgba(60,180,110,0.4)",  shape:"28px 6px 6px 28px" },
                 { q:"A visionary who refuses to let geography be a limitation. The Hornbill Festival under him is world-class.",                               s:"BBC Travel",        y:"2023", k:"press_forbes", bg:"linear-gradient(145deg,#042830,#07404a)", acc:"#00b4c0", glow:"rgba(0,150,160,0.4)",  bdr:"rgba(0,180,180,0.4)",  shape:"6px 28px 28px 6px" },
@@ -1413,7 +1413,7 @@ export default function App() {
               Let's Build <br /><span className="opacity-40">Together</span>
             </h2>
             <p style={{ color: dark ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)" }} className="text-sm md:text-lg mb-10 md:mb-14 max-w-xl mx-auto leading-relaxed">
-              Whether you're a musician, a festival organiser, a policymaker, or simply a believer in the power of culture — Theja Mero wants to hear from you.
+              Whether you're a musician, a festival organiser, a policymaker, or simply a believer in the power of culture — Theja Meru wants to hear from you.
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-10">
               {[
@@ -1475,7 +1475,7 @@ export default function App() {
         <footer style={{ borderTop: dark ? "1px solid rgba(255,255,255,0.08)" : "1px solid rgba(0,0,0,0.08)" }} className="py-12 px-6">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex flex-col items-center md:items-start">
-              <h2 style={{ color: dark ? "#ffffff" : "#0a0a0a" }} className="text-3xl font-anton tracking-tighter uppercase mb-2">Theja Mero</h2>
+              <h2 style={{ color: dark ? "#ffffff" : "#0a0a0a" }} className="text-3xl font-anton tracking-tighter uppercase mb-2">Theja Meru</h2>
               <p style={{ color: dark ? "rgba(255,255,255,0.35)" : "rgba(0,0,0,0.35)" }} className="text-sm uppercase tracking-widest">Architect of the Arts</p>
             </div>
             
@@ -1489,7 +1489,7 @@ export default function App() {
             </div>
             
             <p style={{ color: dark ? "rgba(255,255,255,0.25)" : "rgba(0,0,0,0.25)" }} className="text-[10px] uppercase tracking-[0.4em]">
-              © 2026 Theja Mero. All Rights Reserved.
+              © 2026 Theja Meru. All Rights Reserved.
             </p>
           </div>
         </footer>

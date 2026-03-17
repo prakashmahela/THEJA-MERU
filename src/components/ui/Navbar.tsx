@@ -60,7 +60,7 @@ export const Navbar = ({
             TM
           </div>
           <div className="flex flex-col" style={{ transform: 'translateZ(15px)' }}>
-            <span className={`text-[10px] font-bold tracking-tighter uppercase ${textCol}`}>Theja Mero</span>
+            <span className={`text-[10px] font-bold tracking-tighter uppercase ${textCol}`}>Theja Meru</span>
             <span className={`text-[8px] tracking-widest uppercase ${dark ? 'text-white/40' : 'text-black/35'}`}>Nagaland</span>
           </div>
         </motion.div>
