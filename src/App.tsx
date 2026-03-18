@@ -1473,24 +1473,20 @@ export default function App() {
 
       {/* Footer */}
         <footer style={{ borderTop: dark ? "1px solid rgba(255,255,255,0.08)" : "1px solid rgba(0,0,0,0.08)" }} className="py-12 px-6">
-          <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
-            <div className="flex flex-col items-center md:items-start">
+          <div className="max-w-7xl mx-auto flex flex-col items-center text-center gap-6">
+            <div className="flex flex-col items-center">
               <h2 style={{ color: dark ? "#ffffff" : "#0a0a0a" }} className="text-3xl font-anton tracking-tighter uppercase mb-2">Theja Meru</h2>
               <p style={{ color: dark ? "rgba(255,255,255,0.35)" : "rgba(0,0,0,0.35)" }} className="text-sm uppercase tracking-widest">Architect of the Arts</p>
             </div>
             
-            <div className="flex gap-6">
-              <a href="https://www.instagram.com/thejameru/" target="_blank" rel="noopener noreferrer" style={{ border: dark ? "1px solid rgba(255,255,255,0.1)" : "1px solid rgba(0,0,0,0.1)", color: dark ? "rgba(255,255,255,0.7)" : "rgba(0,0,0,0.6)" }} className="w-12 h-12 rounded-full flex items-center justify-center transition-all hover:opacity-80">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="https://x.com/thejameru" target="_blank" rel="noopener noreferrer" style={{ border: dark ? "1px solid rgba(255,255,255,0.1)" : "1px solid rgba(0,0,0,0.1)", color: dark ? "rgba(255,255,255,0.7)" : "rgba(0,0,0,0.6)" }} className="w-12 h-12 rounded-full flex items-center justify-center transition-all hover:opacity-80">
-                <Twitter className="w-5 h-5" />
-              </a>
+            <div className="flex flex-col items-center gap-2">
+              <p style={{ color: dark ? "rgba(255,255,255,0.25)" : "rgba(0,0,0,0.25)" }} className="text-[10px] uppercase tracking-[0.4em]">
+                © 2026 Theja Meru. All Rights Reserved.
+              </p>
+              <p style={{ color: dark ? "rgba(255,255,255,0.2)" : "rgba(0,0,0,0.2)" }} className="text-[9px] uppercase tracking-[0.2em]">
+                developed by NITI Technologies
+              </p>
             </div>
-            
-            <p style={{ color: dark ? "rgba(255,255,255,0.25)" : "rgba(0,0,0,0.25)" }} className="text-[10px] uppercase tracking-[0.4em]">
-              © 2026 Theja Meru. All Rights Reserved.
-            </p>
           </div>
         </footer>
       </div>
