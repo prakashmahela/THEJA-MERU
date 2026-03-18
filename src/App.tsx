@@ -1,6 +1,7 @@
 import React from 'react';
 import { MusicReactiveHero } from './components/ui/music-reactive-hero-section';
 import { Navbar } from './components/ui/Navbar';
+import { CircularTestimonials } from './components/ui/circular-testimonials';
 import { 
   Music, 
   Briefcase, 
@@ -126,13 +127,14 @@ const Subpage = ({ title, content, onBack, dark }: { title: string, content: Rea
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
         className="space-y-16 leading-relaxed text-lg font-poppins"
-        style={{ color: dark ? 'rgba(255,255,255,0.65)' : 'rgba(0,0,0,0.6)' }}
+        style={{ color: dark ? 'rgba(255,255,255,0.65)' : 'rgba(10,10,10,0.8)' }}
       >
         {/* Re-style subpage content borders for light mode */}
         <style>{`
-          .subpage-content .border-l-2 { border-color: ${dark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'}; }
-          .subpage-content h3 { color: ${dark ? 'rgba(255,255,255,0.3)' : 'rgba(0,0,0,0.3)'}; }
-          .subpage-content h4 { color: ${dark ? '#ffffff' : '#0a0a0a'}; }
+          .subpage-content .border-l-2 { border-color: ${dark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.15)'} !important; }
+          .subpage-content h3 { color: ${dark ? 'rgba(255,255,255,0.3)' : 'rgba(0,0,0,0.45)'} !important; }
+          .subpage-content h4 { color: ${dark ? '#ffffff' : '#0a0a0a'} !important; }
+          .subpage-content p { color: ${dark ? 'rgba(255,255,255,0.65)' : 'rgba(10,10,10,0.8)'} !important; }
         `}</style>
         <div className="subpage-content space-y-16">
           {content}
@@ -839,9 +841,9 @@ export default function App() {
           >
             <h2 className="text-3xl md:text-7xl font-anton mb-3 md:mb-6 leading-none uppercase animate-color-flow" style={{ background: dark ? "linear-gradient(135deg,#ffffff,#00f2ff,#b060ff,#ff00ea,#ffffff)" : "linear-gradient(135deg,#0a0a0a,#0057ff,#8b00ff,#ff0099,#0a0a0a)", backgroundSize:"300% auto", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text" }}>
               The Visionary <br />
-              <span style={{WebkitTextFillColor: dark ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"}}>Architect</span>
+              <span style={{WebkitTextFillColor: dark ? "rgba(255,255,255,0.4)" : "rgba(10,10,10,0.5)"}}>Architect</span>
             </h2>
-            <p style={{ color: dark ? "rgba(255,255,255,0.65)" : "rgba(0,0,0,0.6)" }} className="text-sm md:text-xl mb-4 md:mb-10 leading-relaxed">
+            <p style={{ color: dark ? "rgba(255,255,255,0.65)" : "rgba(10,10,10,0.85)" }} className="text-sm md:text-xl mb-4 md:mb-10 leading-relaxed">
               Theja Meru is a name synonymous with the creative revolution in Nagaland. 
               As the Chairman of the Task Force for Music & Arts (TaFMA), he has transformed 
               the state's musical landscape from a cultural hobby into a thriving industry.
@@ -940,7 +942,7 @@ export default function App() {
           <Section>
             <div className="text-center mb-8 md:mb-16">
               <h2 style={{ color: dark ? "#ffffff" : "#0a0a0a" }} className="text-2xl md:text-6xl font-anton mb-3 md:mb-4 uppercase">Key Initiatives</h2>
-              <p style={{ color: dark ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)" }} className="text-sm md:text-base max-w-xl mx-auto">Building the infrastructure for the next generation of Naga talent.</p>
+              <p style={{ color: dark ? "rgba(255,255,255,0.4)" : "rgba(10,10,10,0.6)" }} className="text-sm md:text-base max-w-xl mx-auto">Building the infrastructure for the next generation of Naga talent.</p>
             </div>
             
             <div className="grid md:grid-cols-3 gap-4 md:gap-8">
@@ -1183,7 +1185,7 @@ export default function App() {
               Creative <br />
               <span className="opacity-50">Entrepreneurship</span>
             </h2>
-            <p style={{ color: dark ? "rgba(255,255,255,0.65)" : "rgba(0,0,0,0.6)" }} className="text-sm md:text-xl mb-4 md:mb-10 leading-relaxed">
+            <p style={{ color: dark ? "rgba(255,255,255,0.65)" : "rgba(10,10,10,0.85)" }} className="text-sm md:text-xl mb-4 md:mb-10 leading-relaxed">
               Beyond music, Theja is a serial entrepreneur who believes in the power of 
               creative economy. He mentors young startups and advocates for 
               innovation-led growth in the Northeast region of India.
@@ -1230,7 +1232,7 @@ export default function App() {
               className="text-center mb-10 md:mb-16"
             >
               <h2 style={{ color: dark ? "#ffffff" : "#0a0a0a" }} className="text-2xl md:text-6xl font-anton uppercase mb-3">Impact by Numbers</h2>
-              <p style={{ color: dark ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)" }} className="text-sm md:text-base">A decade of building Nagaland's creative economy.</p>
+              <p style={{ color: dark ? "rgba(255,255,255,0.4)" : "rgba(10,10,10,0.6)" }} className="text-sm md:text-base">A decade of building Nagaland's creative economy.</p>
             </motion.div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
               {[
@@ -1274,7 +1276,7 @@ export default function App() {
             className="text-center mb-10 md:mb-16"
           >
             <h2 style={{ color: dark ? "#ffffff" : "#0a0a0a" }} className="text-2xl md:text-6xl font-anton uppercase mb-3">The Journey</h2>
-            <p className="text-white/40 text-sm md:text-base">From musician to cultural architect — a timeline of transformation.</p>
+            <p className={`${dark ? 'text-white/40' : 'text-black/50'} text-sm md:text-base`}>From musician to cultural architect — a timeline of transformation.</p>
           </motion.div>
           <div className="relative">
             <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-[1px] md:-translate-x-1/2" style={{ background: dark ? "linear-gradient(180deg,transparent,rgba(0,242,255,0.4),rgba(112,0,255,0.4),rgba(255,0,234,0.4),transparent)" : "linear-gradient(180deg,transparent,rgba(0,87,255,0.25),rgba(139,0,255,0.25),rgba(255,0,153,0.25),transparent)" }} />
@@ -1336,39 +1338,41 @@ export default function App() {
               className="text-center mb-10 md:mb-16"
             >
               <h2 style={{ color: dark ? "#ffffff" : "#0a0a0a" }} className="text-2xl md:text-6xl font-anton uppercase mb-3">Recognition</h2>
-              <p style={{ color: dark ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.45)" }} className="text-sm md:text-base">Voices from the press, institutions, and the global stage.</p>
+              <p style={{ color: dark ? "rgba(255,255,255,0.4)" : "rgba(10,10,10,0.6)" }} className="text-sm md:text-base">Voices from the press, institutions, and the global stage.</p>
             </motion.div>
-            <div className="grid md:grid-cols-3 gap-6">
-              {[
-                { q:"Theja Meru is single-handedly rewriting the narrative of what is possible in Northeast India's creative sector.", s:"The Hindu",           y:"2023", k:"press_hindu",  bg:"linear-gradient(145deg,#0f1f3d,#1a3460)", acc:"#6495ff", glow:"rgba(30,80,200,0.4)",  bdr:"rgba(100,149,255,0.4)", shape:"28px 6px 28px 6px" },
-                { q:"A rare blend of artistic vision and institutional leadership — he is building the infrastructure that the entire region needs.", s:"Forbes India",     y:"2022", k:"press_forbes", bg:"linear-gradient(145deg,#1e0a3c,#2e1458)", acc:"#a064ff", glow:"rgba(120,60,220,0.4)", bdr:"rgba(160,100,255,0.4)", shape:"6px 28px 6px 28px" },
-                { q:"Nagaland's music revolution has a face, and it belongs to Theja Meru.",                                                                  s:"Rolling Stone India", y:"2024", k:"press_hindu",  bg:"linear-gradient(145deg,#2d0a1a,#4a1428)", acc:"#e05080", glow:"rgba(180,40,80,0.4)",  bdr:"rgba(220,80,120,0.4)", shape:"28px 28px 6px 6px" },
-                { q:"His work with TaFMA is a masterclass in cultural policy — data-driven, community-centred, globally oriented.",                            s:"NITI Aayog",        y:"2023", k:"press_forbes", bg:"linear-gradient(145deg,#2a1400,#3d1e00)", acc:"#d28232", glow:"rgba(180,100,20,0.4)", bdr:"rgba(210,130,50,0.4)",  shape:"6px 6px 28px 28px" },
-                { q:"When Theja speaks about music as industry, you feel the weight of a movement behind him.",                                                s:"Economic Times",    y:"2024", k:"press_hindu",  bg:"linear-gradient(145deg,#0a2218,#143322)", acc:"#3cb46e", glow:"rgba(20,140,80,0.4)",  bdr:"rgba(60,180,110,0.4)",  shape:"28px 6px 6px 28px" },
-                { q:"A visionary who refuses to let geography be a limitation. The Hornbill Festival under him is world-class.",                               s:"BBC Travel",        y:"2023", k:"press_forbes", bg:"linear-gradient(145deg,#042830,#07404a)", acc:"#00b4c0", glow:"rgba(0,150,160,0.4)",  bdr:"rgba(0,180,180,0.4)",  shape:"6px 28px 28px 6px" },
-              ].map((item, i) => (
-                <motion.div key={i}
-                  initial={{ opacity:0, y:30 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true }}
-                  whileHover={{ y:-14, scale:1.03, rotateX:-2 }}
-                  transition={{ delay:i*0.08, type:"spring", stiffness:220, damping:20 }}
-                  onClick={() => setActiveSubpage(item.k)}
-                  className="p-6 relative overflow-hidden group cursor-pointer"
-                  style={{ background:item.bg, border:`1.5px solid ${item.bdr}`, borderRadius:item.shape, boxShadow:`0 20px 50px ${item.glow}, 0 4px 16px ${item.glow}, inset 0 1px 0 rgba(255,255,255,0.07)` }}
-                >
-                  <div className="absolute -top-10 -right-10 w-28 h-28 rounded-full pointer-events-none" style={{ background:`radial-gradient(circle,${item.acc},transparent 70%)`, opacity:0.2, filter:"blur(8px)" }} />
-                  <div className="absolute top-0 left-0 right-0 h-[2px]" style={{ background:`linear-gradient(90deg,transparent,${item.acc},transparent)`, boxShadow:`0 0 14px ${item.glow}`, animation:"colorFlow 4s ease infinite", backgroundSize:"200% 100%" }} />
-                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 overflow-hidden pointer-events-none" style={{transition:"opacity 0.3s", borderRadius:item.shape}}>
-                    <div style={{position:"absolute",top:"-50%",left:"-80%",width:"55%",height:"200%",background:"linear-gradient(105deg,transparent,rgba(255,255,255,0.1),transparent)",transform:"skewX(-15deg)",animation:"shimmerSweep 1.4s ease-out forwards"}} />
-                  </div>
-                  <p style={{ color:item.acc, opacity:0.7 }} className="font-anton text-4xl leading-none mb-3 relative z-10">"</p>
-                  <p style={{ color:"rgba(255,255,255,0.78)" }} className="text-sm leading-relaxed mb-5 italic relative z-10">{item.q}"</p>
-                  <div className="flex items-center justify-between relative z-10">
-                    <p className="text-xs font-bold uppercase tracking-widest" style={{ color:item.acc }}>{item.s}</p>
-                    <p style={{ color:"rgba(255,255,255,0.35)" }} className="text-xs">{item.y}</p>
-                  </div>
-                </motion.div>
-              ))}
+            
+            <div className="flex justify-center items-center">
+              <CircularTestimonials
+                testimonials={[
+                  { q:"Theja Meru is single-handedly rewriting the narrative of what is possible in Northeast India's creative sector.", s:"The Hindu",           y:"2023", src: "https://i.ibb.co/twqd51mj/Whats-App-Image-2026-03-18-at-8-07-09-AM.jpg" },
+                  { q:"A rare blend of artistic vision and institutional leadership — he is building the infrastructure that the entire region needs.", s:"Forbes India",     y:"2022", src: "https://i.ibb.co/v64GLx0x/Whats-App-Image-2026-03-18-at-8-07-09-AM-1.jpg" },
+                  { q:"Nagaland's music revolution has a face, and it belongs to Theja Meru.",                                                                  s:"Rolling Stone India", y:"2024", src: "https://i.ibb.co/bj8SdHFg/Whats-App-Image-2026-03-18-at-8-07-08-AM-1.jpg" },
+                  { q:"His work with TaFMA is a masterclass in cultural policy — data-driven, community-centred, globally oriented.",                            s:"NITI Aayog",        y:"2023", src: "https://i.ibb.co/7NNkw3zf/Whats-App-Image-2026-03-18-at-8-14-10-AM.jpg" },
+                  { q:"When Theja speaks about music as industry, you feel the weight of a movement behind him.",                                                s:"Economic Times",    y:"2024", src: "https://i.ibb.co/GQCMxmtg/Whats-App-Image-2026-03-18-at-8-14-09-AM.jpg" },
+                  { q:"A visionary who refuses to let geography be a limitation. The Hornbill Festival under him is world-class.",                               s:"BBC Travel",        y:"2023", src: "https://i.ibb.co/v64GLx0x/Whats-App-Image-2026-03-18-at-8-07-09-AM-1.jpg" },
+                ].map(item => ({
+                  quote: item.q,
+                  name: item.s,
+                  designation: item.y,
+                  src: item.src
+                }))}
+                autoplay={true}
+                colors={{
+                  name: dark ? "#f7f7ff" : "#0a0a0a",
+                  designation: dark ? "#e1e1e1" : "#454545",
+                  testimony: dark ? "#f1f1f7" : "#171717",
+                  arrowBackground: dark ? "#0582CA" : "#141414",
+                  arrowForeground: dark ? "#141414" : "#f1f1f7",
+                  arrowHoverBackground: dark ? "#f7f7ff" : "#00A6FB",
+                }}
+                fontSizes={{
+                  name: "28px",
+                  designation: "20px",
+                  quote: "20px",
+                }}
+              />
             </div>
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -1410,9 +1414,9 @@ export default function App() {
             className="max-w-3xl mx-auto"
           >
             <h2 style={{ color: dark ? "#ffffff" : "#0a0a0a" }} className="text-3xl md:text-7xl font-anton uppercase mb-4 md:mb-6 leading-none">
-              Let's Build <br /><span className="opacity-40">Together</span>
+              Let's Build <br /><span className={dark ? "opacity-40" : "opacity-60"}>Together</span>
             </h2>
-            <p style={{ color: dark ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)" }} className="text-sm md:text-lg mb-10 md:mb-14 max-w-xl mx-auto leading-relaxed">
+            <p style={{ color: dark ? "rgba(255,255,255,0.5)" : "rgba(10,10,10,0.65)" }} className="text-sm md:text-lg mb-10 md:mb-14 max-w-xl mx-auto leading-relaxed">
               Whether you're a musician, a festival organiser, a policymaker, or simply a believer in the power of culture — Theja Meru wants to hear from you.
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-10">
